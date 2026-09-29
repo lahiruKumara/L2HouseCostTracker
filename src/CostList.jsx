@@ -64,7 +64,7 @@ export default function CostList({ costs, preset, edit }) {
             <option value="unpaid">Unpaid</option>
           </select>
         </div>
-        <div className="row2">
+        <div className="row3">
           <label>
             From
             <input type="date" value={q.from} onChange={s("from")} />
@@ -113,7 +113,7 @@ export default function CostList({ costs, preset, edit }) {
               ))}
               <div className="wt">
                 <span>
-                  {c.workers.length} workers · {days(c.workers)} days
+                  {c.workers.length} workers 
                 </span>
                 <b>{money(sum(c.workers))}</b>
               </div>

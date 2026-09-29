@@ -2,7 +2,7 @@ export const CURRENCY = "Rs.";
 export const FLOORS = [
   "Ground Floor",
   "First Floor",
-  "Third Floor",
+  "Second Floor",
   "Whole House",
 ];
 export const CATEGORIES = [

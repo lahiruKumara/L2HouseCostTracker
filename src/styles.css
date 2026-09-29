@@ -89,7 +89,7 @@ header h1 {
 }
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 12px;
 }
 .floor {
@@ -155,8 +155,9 @@ button:focus-visible {
 }
 .row2 {
   display: grid;
+  width: 100%;
   grid-template-columns: 1fr 1fr;
-  gap: 10px;
+  gap: 12px;
 }
 .chk {
   display: flex;
