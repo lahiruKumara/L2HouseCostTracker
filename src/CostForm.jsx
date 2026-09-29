@@ -126,7 +126,7 @@ export default function CostForm({ item, done }) {
             required
           />
         </label>
-        <label>
+          <label style={{ width: "150px" }}>
           Date
           <input type="date" value={f.date} onChange={set("date")} required />
         </label>
