@@ -15,7 +15,7 @@ const COLORS = [
 function Pie({ data, onPick }) {
   const total = data.reduce((s, d) => s + d.v, 0);
   if (!total)
-    return <p>No costs yet.</p>;
+    return <p>Loading ...</p>;
   let a = -Math.PI / 2;
   const R = 90;
   const arcs = data.map((d, i) => {

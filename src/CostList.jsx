@@ -65,11 +65,11 @@ export default function CostList({ costs, preset, edit }) {
           </select>
         </div>
         <div className="row3">
-          <label>
+          <label style={{ width: "150px" }}>
             From
             <input type="date" value={q.from} onChange={s("from")} />
           </label>
-          <label>
+          <label style={{ width: "150px" }}>
             To
             <input type="date" value={q.to} onChange={s("to")} />
           </label>
